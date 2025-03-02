@@ -20,7 +20,7 @@ We propose two large-scale aerial-ground cross-view person re-identification dat
 
 We constructed the LAGPeR dataset, a large-scale AGPReID benchmark, by collecting multi-scenario surveillance data across seven distinct real-world environments. The dataset is publicly accessible for research purposes at [here]().
 
-<img src=".\assets\scene.png" style="zoom:67%;" />
+<img src=".\assets\scene.png"  />
 
 #### Hightlight
 
@@ -32,7 +32,7 @@ We constructed the LAGPeR dataset, a large-scale AGPReID benchmark, by collectin
 
 We reconstructed the AGPReID dataset G2APS-ReID from a large-scale pedestrian search dataset [G2APS]([yqc123456/HKD_for_person_search](https://github.com/yqc123456/HKD_for_person_search)). Its scene instance is as follows. The dataset can be downloaded from [here]().
 
-![](.\assets\scene_overview.jpg)
+<img src=".\assets\scene_overview.jpg"/>
 
 ### Settings
 
@@ -142,7 +142,41 @@ We reconstructed the AGPReID dataset G2APS-ReID from a large-scale pedestrian se
 
 ## Method: SeCap
 
-![secap](.\assets\Secap.png)
+<img src=".\assets\secap.png"/>
+
+### Requirements
+
+#### Step1: Prepare environments
 
 
+
+#### Step2: Prepare datasets
+
+Download the LAGPeR and G2APS-ReID datasets and modify the dataset path.  
+
+#### Step3: Prepare ViT Pre-trained Models
+
+Download the ViT-base Pre-trained model and modify the path. Line 13 in [configs](./configs/LAGPeR/secap.yml):
+
+> PRETRAIN_PATH: xxx
+
+### Training & Testing
+
+Training SeCap on the LAGPeR dataset with one GPU:
+
+```bash
+CUDA_VISIBLE_DEVICES=0 python3 tools/train_net.py --config-file ./configs/LAGPeR/secap.yml MODEL.DEVICE "cuda:0" SOLVER.IMS_PER_BATCH 64  
+```
+
+Training SeCap on the LAGPeR dataset with 4 GPU:
+
+```bash
+CUDA_VISIBLE_DEVICES=0,1,2,3 python3 tools/train_net.py --config-file ./configs/LAGPeR/secap.yml --num-gpus 4 SOLVER.IMS_PER_BATCH 256
+```
+
+Testing SeCap on the LAGPeR dataset:
+
+```bash
+CUDA_VISIBLE_DEVICES=0 python3 tools/train_net.py --config-file ./configs/LAGPeR/secap.yml --eval-only MODEL.WEIGHTS xxx 
+```
 
