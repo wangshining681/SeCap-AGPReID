@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,1,2,3 python3 tools/train_net.py --config-file ./configs/LAGPeR/secap.yml --num-gpus 4 SOLVER.IMS_PER_BATCH 256
