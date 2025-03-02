@@ -142,13 +142,13 @@ We reconstructed the AGPReID dataset G2APS-ReID from a large-scale pedestrian se
 
 ## Method: SeCap
 
-<img src=".\assets\secap.png"/>
+<img src=".\assets\Secap.png"/>
 
 ### Requirements
 
 #### Step1: Prepare environments
 
-
+Please refer to [INSTALL.md](./INSTALL.md).
 
 #### Step2: Prepare datasets
 
