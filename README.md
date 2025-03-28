@@ -6,8 +6,8 @@ SeCap: Self-Calibrating and Adaptive Prompts for Cross-view Person Re-Identifica
 We will update more detailed result (including dataset, training, verification) in the future
 
 - [x] **2025.2.28**: Build project page
-- [x] :Add LAGPeR and G2APS-ReID
-- [ ] :Add code
+- [x] **2025.3.2**: Add code
+- [ ] :Add LAGPeR and G2APS-ReID datasets
 - [ ] :Add detailed process description
 
 ## Dataset：LAGPeR and G2APS-ReID
@@ -30,7 +30,7 @@ We constructed the LAGPeR dataset, a large-scale AGPReID benchmark, by collectin
 
 ### G2APS-ReID
 
-We reconstructed the AGPReID dataset G2APS-ReID from a large-scale pedestrian search dataset [G2APS]([yqc123456/HKD_for_person_search](https://github.com/yqc123456/HKD_for_person_search)). Its scene instance is as follows. The dataset can be downloaded from [here]().
+We reconstructed the AGPReID dataset G2APS-ReID from a large-scale pedestrian search dataset [G2APS](https://github.com/yqc123456/HKD_for_person_search). Its scene instance is as follows. The reconstructed code can be downloaded from [here](https://github.com/wangshining681/G2APS-ReID).
 
 <img src=".\assets\scene_overview.jpg"/>
 
