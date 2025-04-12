@@ -1,5 +1,5 @@
 # SeCap_AGPReID
-SeCap: Self-Calibrating and Adaptive Prompts for Cross-view Person Re-Identification in Aerial-Ground Networks (CVPR'25)
+SeCap: Self-Calibrating and Adaptive Prompts for Cross-view Person Re-Identification in Aerial-Ground Networks (CVPR 2025 Highlight)
 
 ### Updates
 
@@ -7,8 +7,17 @@ We will update more detailed result (including dataset, training, verification) 
 
 - [x] **2025.2.28**: Build project page
 - [x] **2025.3.2**: Add code
-- [ ] :Add LAGPeR and G2APS-ReID datasets
-- [ ] :Add detailed process description
+- [x] :Add G2APS-ReID reconstructed code
+- [x] :Add detailed process description
+- [ ]: Add the LAGPeR and the usage license(LAGPR is undergoing systematic collation and revision)
+
+### News
+20250405 - Our paper was selected as a CVPR 2025 Highlight！
+
+20250310 - Our paper is available on [arxiv](https://arxiv.org/abs/2503.06965)
+
+20250227 - Our paper has been accepted by CVPR'25!
+
 
 ## Dataset：LAGPeR and G2APS-ReID
 
@@ -18,7 +27,7 @@ We propose two large-scale aerial-ground cross-view person re-identification dat
 
 ### LAGPeR
 
-We constructed the LAGPeR dataset, a large-scale AGPReID benchmark, by collecting multi-scenario surveillance data across seven distinct real-world environments. The dataset is publicly accessible for research purposes at [here]().
+We constructed the LAGPeR dataset, a large-scale AGPReID benchmark, by collecting multi-scenario surveillance data across seven distinct real-world environments. (We sincerely apologize that, due to copyright and privacy protection regulations, the LAGPeR dataset is currently undergoing systematic collation and revision. The usage license will be opened subsequently upon completion of compliance reviews.)
 
 <img src=".\assets\scene.png"  />
 
@@ -30,7 +39,7 @@ We constructed the LAGPeR dataset, a large-scale AGPReID benchmark, by collectin
 
 ### G2APS-ReID
 
-We reconstructed the AGPReID dataset G2APS-ReID from a large-scale pedestrian search dataset [G2APS](https://github.com/yqc123456/HKD_for_person_search). Its scene instance is as follows. The reconstructed code can be downloaded from [here](https://github.com/wangshining681/G2APS-ReID).
+We reconstructed the AGPReID dataset G2APS-ReID from a large-scale pedestrian search dataset [G2APS](https://github.com/yqc123456/HKD_for_person_search). Its scene instance is as follows. Under copyright constraints, the G2APS-ReID dataset cannot be publicly released. However, we have made available the complete codebase for reconstructing this dataset from G2APS, which can be accessed at [here](https://github.com/wangshining681/G2APS-ReID).
 
 <img src=".\assets\scene_overview.jpg"/>
 
