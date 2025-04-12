@@ -9,7 +9,7 @@ We will update more detailed result (including dataset, training, verification) 
 - [x] **2025.3.2**: Add code
 - [x] :Add G2APS-ReID reconstructed code
 - [x] :Add detailed process description
-- [ ]: Add the LAGPeR and the usage license(LAGPR is undergoing systematic collation and revision)
+- [ ] :Add the LAGPeR and the usage license(LAGPR is undergoing systematic collation and revision)
 
 ### News
 20250405 - Our paper was selected as a CVPR 2025 Highlight！
