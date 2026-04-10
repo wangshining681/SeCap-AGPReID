@@ -27,7 +27,7 @@ We propose two large-scale aerial-ground cross-view person re-identification dat
 
 ### LAGPeR
 
-We constructed the LAGPeR dataset, a large-scale AGPReID benchmark, by collecting multi-scenario surveillance data across seven distinct real-world environments. You can fill in the [Data Release Protocol](https://wangshining681.github.io/laper-page/) here and send it to this [email address](wangshining@mail.nwpu.edu.cn) to obtain the data usage rights of LAGPeR.
+We constructed the LAGPeR dataset, a large-scale AGPReID benchmark, by collecting multi-scenario surveillance data across seven distinct real-world environments. You can fill in the [Data Release Protocol](https://wangshining681.github.io/laper-page/) here and send it to this email address [19852376805@163.com](19852376805@163.com) to obtain the data usage rights of LAGPeR.
 
 
 <img src=".\assets\scene.png"  />
